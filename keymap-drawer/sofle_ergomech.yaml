@@ -54,8 +54,8 @@ layers:
   - LALT
   - system
   - {t: TAB, h: LEFT SHIFT}
-  - {t: BACKSPACE, h: nav/sym}
-  - {t: SPACE, h: nav/sym}
+  - {t: BACKSPACE, h: symbol}
+  - {t: SPACE, h: symbol}
   - {t: ENTER, h: num/fn}
   - system
   - RALT
@@ -118,7 +118,7 @@ layers:
   - {t: T, h: toggle}
   - G
   - B
-  - nav/sym
+  - symbol
   - SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -130,7 +130,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  nav/sym:
+  symbol:
   - Sft+~
   - Sft+!
   - Sft+@
