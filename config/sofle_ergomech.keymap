@@ -110,7 +110,7 @@
                                                            &trans  &trans  &trans  &trans  &trans
             >;
 
-            label = "Gaming";
+            label = "Game";
         };
 
         nav+symbols {
@@ -123,7 +123,7 @@
                                                                                      &trans         &trans         &trans        &trans        &trans
             >;
 
-            label = "nav/symbol";
+            label = "nav/sym";
         };
 
         num+fn {
