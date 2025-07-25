@@ -54,9 +54,9 @@ layers:
   - LALT
   - system
   - {t: TAB, h: LEFT SHIFT}
-  - {t: BACKSPACE, h: nav+symbols}
-  - {t: SPACE, h: nav+symbols}
-  - {t: ENTER, h: num+fn}
+  - {t: BACKSPACE, h: nav/symbol}
+  - {t: SPACE, h: nav/symbol}
+  - {t: ENTER, h: num/fn}
   - system
   - RALT
   - RGUI
@@ -118,7 +118,7 @@ layers:
   - {t: T, h: toggle}
   - G
   - B
-  - nav+symbols
+  - nav/symbol
   - SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -130,7 +130,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  nav+symbols:
+  nav/symbol:
   - Sft+~
   - Sft+!
   - Sft+@
@@ -195,7 +195,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  num+fn:
+  num/fn:
   - F12
   - F1
   - F2
@@ -261,7 +261,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   system:
-  - {t: ▽, type: trans}
+  - SLEEP
   - {t: default, h: toggle}
   - {t: Gaming, h: toggle}
   - {t: ▽, type: trans}
