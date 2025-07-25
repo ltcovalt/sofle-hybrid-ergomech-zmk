@@ -38,29 +38,29 @@ layers:
   - O
   - {t: ▽, type: trans}
   - LCTRL
-  - Z
-  - X
-  - C
+  - {t: Z, h: LCTRL}
+  - {t: X, h: LEFT ALT}
+  - {t: C, h: LEFT GUI}
   - D
   - V
   - K
   - H
-  - ','
-  - .
-  - /
+  - {t: ',', h: RMETA}
+  - {t: ., h: RIGHT ALT}
+  - {t: /, h: RCTRL}
   - {t: ▽, type: trans}
   - MUTE
   - LGUI
   - LALT
   - system
-  - {t: TAB, h: '&mt LEFT_SHIFT'}
+  - {t: TAB, h: LEFT SHIFT}
   - {t: BACKSPACE, h: nav+symbols}
   - {t: SPACE, h: nav+symbols}
   - {t: ENTER, h: num+fn}
   - RCTRL
   - RALT
   - RGUI
-  - ENTER
+  - ''
   - RIGHT
   - UP ARROW
   - LEFT
