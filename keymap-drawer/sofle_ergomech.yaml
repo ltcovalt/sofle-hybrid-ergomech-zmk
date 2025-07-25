@@ -54,8 +54,8 @@ layers:
   - LALT
   - system
   - {t: TAB, h: LEFT SHIFT}
-  - {t: BACKSPACE, h: nav/symbol}
-  - {t: SPACE, h: nav/symbol}
+  - {t: BACKSPACE, h: nav/sym}
+  - {t: SPACE, h: nav/sym}
   - {t: ENTER, h: num/fn}
   - system
   - RALT
@@ -65,7 +65,7 @@ layers:
   - UP ARROW
   - LEFT
   - DOWN
-  Gaming:
+  Game:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -118,7 +118,7 @@ layers:
   - {t: T, h: toggle}
   - G
   - B
-  - nav/symbol
+  - nav/sym
   - SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -130,7 +130,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  nav/symbol:
+  nav/sym:
   - Sft+~
   - Sft+!
   - Sft+@
@@ -263,7 +263,7 @@ layers:
   system:
   - SLEEP
   - {t: default, h: toggle}
-  - {t: Gaming, h: toggle}
+  - {t: Game, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
