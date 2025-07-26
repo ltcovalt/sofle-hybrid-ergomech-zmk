@@ -139,7 +139,7 @@
 &kp TAB        &kp TAB       &kp BSPC    &kp UP         &kp DEL       &kp LBKT       &kp RBKT       &kp GRAVE      &kp LS(PLUS)  &kp LS(PIPE)  &kp LS(DQT)    &trans
 &kp ESC        &kp LSHFT     &kp LEFT    &kp DOWN       &kp RIGHT     &kp LS(LPAR)   &kp LS(RPAR)   &kp MINUS      &kp EQUAL     &kp BSLH      &kp SEMI       &trans
 &trans         &kp LGUI      &trans      &kp HOME       &kp END       &kp LS(LBRC)   &kp LS(RBRC)   &kp LS(UNDER)  &kp LS(LT)    &kp LS(GT)    &kp LS(QMARK)  &kp RET
-&trans         &trans        &trans      &trans         &trans        &trans         &trans         &trans         &trans        &trans        &trans
+&trans         &trans        &trans      &trans         &kp LS(TAB)   &trans         &trans         &trans         &trans        &trans        &trans
                                                                                      &trans         &trans         &trans        &trans        &trans
             >;
 
