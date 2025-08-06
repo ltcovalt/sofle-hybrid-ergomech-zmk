@@ -97,9 +97,9 @@
 
             bindings = <
 &kp GRAVE   &kp N1         &kp N2            &kp N3            &kp N4          &kp N5           &kp N6       &kp N7       &kp N8             &kp N9               &kp N0             &none
-&kp TAB     &kp Q          &kp W             &kp F             &kp P           &kp B            &kp J        &kp L        &kp U              &kp Y                &kp SQT            &trans
-&kp ESC     &kp A          &kp R             &kp S             &kp T           &kp G            &kp M        &kp N        &kp E              &kp I                &kp O              &trans
-&kp LCTRL   &hrml LCTRL Z  &hrml LEFT_ALT X  &hrml LEFT_GUI C  &kp D           &kp V            &kp K        &kp H        &hrmr RMETA COMMA  &hrmr RIGHT_ALT DOT  &hrmr RCTRL SLASH  &trans
+&kp ESC     &kp Q          &kp W             &kp F             &kp P           &kp B            &kp J        &kp L        &kp U              &kp Y                &kp SQT            &kp BACKSLASH
+&kp TAB     &kp A          &kp R             &kp S             &kp T           &kp G            &kp M        &kp N        &kp E              &kp I                &kp O              &kp SQT
+&kp LCTRL   &hrml LCTRL Z  &hrml LEFT_ALT X  &hrml LEFT_GUI C  &kp D           &kp V            &kp K        &kp H        &hrmr RMETA COMMA  &hrmr RIGHT_ALT DOT  &hrmr RCTRL SLASH  &kp ENTER
 &kp C_MUTE  &kp LGUI       &kp LALT          &mo 4             &kp LEFT_SHIFT  &lt 2 BACKSPACE  &lt 2 SPACE  &lt 3 ENTER  &mo 4              &kp RALT             &kp RGUI
                                                                                                 &none        &kp RIGHT    &kp UP_ARROW       &kp LEFT             &kp DOWN
             >;
@@ -125,8 +125,8 @@
         nav+symbols {
             bindings = <
 &kp LS(TILDE)  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(AMPS)   &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)   &trans
-&trans         &kp TAB       &kp BSPC    &kp UP         &kp DEL       &kp LBKT       &kp RBKT       &kp GRAVE      &kp LS(PLUS)  &kp LS(PIPE)  &kp LS(DQT)    &trans
-&trans         &kp LSHFT     &kp LEFT    &kp DOWN       &kp RIGHT     &kp LS(LPAR)   &kp LS(RPAR)   &kp MINUS      &kp EQUAL     &kp BSLH      &kp SEMI       &trans
+&trans         &kp TAB       &kp BSPC    &kp UP         &kp DEL       &kp LBKT       &kp RBKT       &kp GRAVE      &kp LS(PLUS)  &kp LS(PIPE)  &kp LS(COLON)  &kp LS(PIPE)
+&trans         &kp LSHFT     &kp LEFT    &kp DOWN       &kp RIGHT     &kp LS(LPAR)   &kp LS(RPAR)   &kp MINUS      &kp EQUAL     &kp BSLH      &kp SEMI       &kp LS(DQT)
 &trans         &kp LGUI      &trans      &kp HOME       &kp END       &kp LS(LBRC)   &kp LS(RBRC)   &kp LS(UNDER)  &kp LS(LT)    &kp LS(GT)    &kp LS(QMARK)  &kp RET
 &trans         &trans        &trans      &trans         &trans        &trans         &trans         &trans         &trans        &trans        &trans
                                                                                      &trans         &trans         &trans        &trans        &trans
@@ -153,8 +153,8 @@
 &kp C_SLEEP  &to 0        &to 1         &trans            &trans        &trans                &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
 &trans       &trans       &kp C_VOL_DN  &kp C_MUTE        &kp C_VOL_UP  &kp C_BRIGHTNESS_INC  &trans        &trans        &trans        &trans        &trans        &trans
 &trans       &trans       &kp C_PREV    &kp C_PLAY_PAUSE  &kp C_NEXT    &kp C_BRI_DEC         &trans        &trans        &trans        &trans        &trans        &trans
-&trans       &trans       &trans        &trans            &trans        &trans                &trans        &trans        &trans        &trans        &trans        &trans
-&trans       &bootloader  &trans        &trans            &trans        &trans                &trans        &trans        &trans        &trans        &bootloader
+&trans       &kp F1       &kp F2        &kp F3            &kp F4        &kp F5                &kp F6        &kp F7        &kp F8        &kp F9        &kp F10       &trans
+&trans       &bootloader  &trans        &trans            &trans        &trans                &trans        &trans        &kp F11       &kp F12       &bootloader
                                                                                               &trans        &trans        &trans        &trans        &trans
             >;
 
