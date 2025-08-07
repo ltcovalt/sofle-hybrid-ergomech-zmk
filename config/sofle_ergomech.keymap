@@ -97,8 +97,8 @@
 
             bindings = <
 &kp GRAVE   &kp N1         &kp N2            &kp N3            &kp N4          &kp N5           &kp N6       &kp N7       &kp N8             &kp N9               &kp N0             &none
-&kp ESC     &kp Q          &kp W             &kp F             &kp P           &kp B            &kp J        &kp L        &kp U              &kp Y                &kp SQT            &kp BACKSLASH
-&kp TAB     &kp A          &kp R             &kp S             &kp T           &kp G            &kp M        &kp N        &kp E              &kp I                &kp O              &kp SQT
+&kp TAB     &kp Q          &kp W             &kp F             &kp P           &kp B            &kp J        &kp L        &kp U              &kp Y                &kp SQT            &kp BACKSLASH
+&kp ESC     &kp A          &kp R             &kp S             &kp T           &kp G            &kp M        &kp N        &kp E              &kp I                &kp O              &kp SQT
 &kp LCTRL   &hrml LCTRL Z  &hrml LEFT_ALT X  &hrml LEFT_GUI C  &kp D           &kp V            &kp K        &kp H        &hrmr RMETA COMMA  &hrmr RIGHT_ALT DOT  &hrmr RCTRL SLASH  &kp ENTER
 &kp C_MUTE  &kp LGUI       &kp LALT          &mo 4             &kp LEFT_SHIFT  &lt 2 BACKSPACE  &lt 2 SPACE  &lt 3 ENTER  &mo 4              &kp RALT             &kp RGUI
                                                                                                 &none        &kp RIGHT    &kp UP_ARROW       &kp LEFT             &kp DOWN
