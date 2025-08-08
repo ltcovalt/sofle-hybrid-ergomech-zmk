@@ -96,7 +96,7 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp GRAVE   &kp N1         &kp N2            &kp N3            &kp N4          &kp N5           &kp N6       &kp N7       &kp N8             &kp N9               &kp N0             &none
+&kp GRAVE   &kp N1         &kp N2            &kp N3            &kp N4          &kp N5           &kp N6       &kp N7       &kp N8             &kp N9               &kp N0             &kp MINUS
 &kp TAB     &kp Q          &kp W             &kp F             &kp P           &kp B            &kp J        &kp L        &kp U              &kp Y                &kp SQT            &kp BACKSLASH
 &kp ESC     &kp A          &kp R             &kp S             &kp T           &kp G            &kp M        &kp N        &kp E              &kp I                &kp O              &kp SQT
 &kp LCTRL   &hrml LCTRL Z  &hrml LEFT_ALT X  &hrml LEFT_GUI C  &kp D           &kp V            &kp K        &kp H        &hrmr RMETA COMMA  &hrmr RIGHT_ALT DOT  &hrmr RCTRL SLASH  &kp ENTER
@@ -124,12 +124,12 @@
 
         nav+symbols {
             bindings = <
-&kp LS(TILDE)  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(AMPS)   &kp LS(STAR)  &kp LS(LPAR)  &kp LS(RPAR)   &trans
-&trans         &kp TAB       &kp BSPC    &kp UP         &kp DEL       &kp LBKT       &kp RBKT       &kp GRAVE      &kp LS(PLUS)  &kp LS(PIPE)  &kp LS(COLON)  &kp LS(PIPE)
-&trans         &kp LSHFT     &kp LEFT    &kp DOWN       &kp RIGHT     &kp LS(LPAR)   &kp LS(RPAR)   &kp MINUS      &kp EQUAL     &kp BSLH      &kp SEMI       &kp LS(DQT)
-&trans         &kp LGUI      &trans      &kp HOME       &kp END       &kp LS(LBRC)   &kp LS(RBRC)   &kp LS(UNDER)  &kp LS(LT)    &kp LS(GT)    &kp LS(QMARK)  &kp RET
-&trans         &trans        &trans      &trans         &trans        &trans         &trans         &trans         &trans        &trans        &trans
-                                                                                     &trans         &trans         &trans        &trans        &trans
+&kp TILDE  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT           &kp CARET              &kp AMPERSAND   &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE
+&trans     &kp TAB          &kp BSPC     &kp UP    &kp DEL     &kp LBKT              &kp RBKT               &kp GRAVE       &kp PLUS       &kp PIPE              &kp COLON              &kp PIPE
+&trans     &kp LSHFT        &kp LEFT     &kp DOWN  &kp RIGHT   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS       &kp EQUAL      &kp BSLH              &kp SEMI               &kp DQT
+&trans     &kp LGUI         &trans       &kp HOME  &kp END     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDERSCORE  &kp LESS_THAN  &kp GREATER_THAN      &kp QUESTION           &kp RET
+&trans     &trans           &trans       &trans    &trans      &trans                &trans                 &trans          &trans         &trans                &trans
+                                                                                     &trans                 &trans          &trans         &trans                &trans
             >;
 
             label = "symbol";
