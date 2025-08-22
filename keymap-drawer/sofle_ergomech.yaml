@@ -37,7 +37,7 @@ layers:
   - I
   - O
   - ''''
-  - LCTRL
+  - ENTER
   - {t: Z, h: LCTRL}
   - {t: X, h: LEFT ALT}
   - {t: C, h: LEFT GUI}
@@ -58,7 +58,7 @@ layers:
   - {t: SPACE, h: symbol}
   - {t: ENTER, h: num/fn}
   - system
-  - RALT
+  - LEFT ALT
   - RGUI
   - ''
   - RIGHT
@@ -103,7 +103,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - M
+  - {t: M, h: LCTRL}
   - Z
   - X
   - C
@@ -117,7 +117,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: T, h: toggle}
   - G
-  - B
+  - {t: B, h: system}
   - symbol
   - SPACE
   - {t: ▽, type: trans}
